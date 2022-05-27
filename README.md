@@ -1,9 +1,5 @@
 # Template
 
-## Installation
+Schemes of events used by multiple Keboola services.
 
-Clone this repository
-
-## License
-
-MIT licensed, see [LICENSE](./LICENSE) file.
+Example: file `schema/ext.keboola.keboola-as-code..json` is for the event `ext.keboola.keboola-as-code.` (the dot `.` at the end is not a typo).

@@ -1,9 +1,3 @@
 # Template
 
-## Installation
-
-Clone this repository
-
-## License
-
-MIT licensed, see [LICENSE](./LICENSE) file.
+Schemes of events used by multiple Keboola services.

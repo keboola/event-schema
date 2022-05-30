@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "allOf": [
     {
-      "$ref": "_auditLog.project.featuresBase.json"
+      "$ref": "../partials/_auditLog.project.featuresBase.json"
     },
     {
       "type": "object",

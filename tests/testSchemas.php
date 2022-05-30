@@ -1,27 +1,46 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-$eventsDir = __DIR__.'/events';
-$schemaDir = __DIR__.'/../schema';
+$eventsDir = __DIR__ . '/events';
+$schemaDir = __DIR__ . '/../schema';
 
-foreach (glob($eventsDir.'/*.json') as $pathname) {
+$schemaPaths = glob($schemaDir . '/*.json');
+$eventPaths = glob($eventsDir . '/*.json');
+
+$missingSchemas = array_diff(
+    array_map(fn($path) => basename($path), $schemaPaths),
+    array_map(fn($path) => basename($path), $eventPaths)
+);
+
+if (count($missingSchemas)) {
+    echo sprintf('Some schemas don\'t have an event to test it: ' . PHP_EOL . '  * %s' . PHP_EOL. PHP_EOL, implode(PHP_EOL . '  * ',
+    $missingSchemas));
+}
+
+foreach ($eventPaths as $pathname) {
     try {
         $eventData = json_decode(file_get_contents($pathname), false, 512, JSON_THROW_ON_ERROR);
     } catch (JsonException $e) {
-        throw new RuntimeException(sprintf(
-            'Failed to parse event file %s: %s',
-            $pathname,
-            $e->getMessage(),
-        ), 0, $e);
+        throw new RuntimeException(
+            sprintf(
+                'Failed to parse event file "%s": %s',
+                $pathname,
+                $e->getMessage(),
+            ), 0, $e
+        );
     }
 
-    $eventName = $eventData->operation ?? null;
+    $auditLogEventName = $eventData->operation ?? null;
+    $sapiEventName = $eventData->event ?? null;
+
+    $eventName = $auditLogEventName ?? $sapiEventName ?? null;
+
     if ($eventName === null) {
         throw new RuntimeException(sprintf(
-            'Event from file %s is "operation" property',
+            'Event from file "%s" does not seem like an event from Keboola',
             $pathname,
         ));
     }
@@ -34,6 +53,18 @@ foreach (glob($eventsDir.'/*.json') as $pathname) {
             $eventName,
             $pathname,
         ));
+    }
+
+    try {
+        json_decode(file_get_contents($schemaPathname), false, 512, JSON_THROW_ON_ERROR);
+    } catch (JsonException $e) {
+        throw new RuntimeException(
+            sprintf(
+                'Failed to parse schema file %s: %s',
+                $schemaPathname,
+                $e->getMessage(),
+            ), 0, $e
+        );
     }
 
     $validator = new JsonSchema\Validator;

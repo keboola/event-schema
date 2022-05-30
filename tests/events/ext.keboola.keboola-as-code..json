@@ -1,0 +1,34 @@
+{
+    "id": 5572396059,
+    "event": "ext.keboola.keboola-as-code.",
+    "component": "keboola.keboola-as-code",
+    "message": "Sync-pull command done.",
+    "description": "",
+    "type": "info",
+    "runId": null,
+    "created": "2022-05-27T17:10:20+0200",
+    "configurationId": null,
+    "objectId": "",
+    "objectName": "",
+    "objectType": "",
+    "context": {
+        "remoteAddr": "20.253.172.73",
+        "httpReferer": null,
+        "httpUserAgent": "keboola-cli/dev",
+        "apiVersion": "v2"
+    },
+    "params": {
+        "command": "sync-pull"
+    },
+    "results": {
+        "projectId": 8763
+    },
+    "performance": {},
+    "token": {
+        "id": 397681,
+        "name": "michal.jurecko@keboola.com"
+    },
+    "idBranch": 59944,
+    "uri": "https://connection.keboola.com/v2/storage/events/5572396059",
+    "attachments": []
+}

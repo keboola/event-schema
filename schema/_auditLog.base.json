@@ -9,23 +9,6 @@
     "operation": {
       "type": "string"
     },
-    "request": {
-      "type": "object",
-      "properties": {
-        "remoteAddr": {
-          "type": "string"
-        },
-        "httpReferer": {
-          "type": "string"
-        },
-        "httpUserAgent": {
-          "type": "string"
-        },
-        "httpUserAgentOriginal": {
-          "type": "string"
-        }
-      }
-    },
     "admin": {
       "required": ["id","name","email"],
       "properties": {

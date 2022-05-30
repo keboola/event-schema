@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "event": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "component": {
+          "type": "string"
+        },
+        "configurationId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["component", "configurationId", "name"]
+    },
+    "token": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  "required": ["id", "event", "created", "message", "params", "token"]
+}

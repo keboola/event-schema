@@ -18,6 +18,7 @@ $missingSchemas = array_diff(
 if (count($missingSchemas)) {
     echo sprintf('Some schemas don\'t have an event to test it: ' . PHP_EOL . '  * %s' . PHP_EOL. PHP_EOL, implode(PHP_EOL . '  * ',
     $missingSchemas));
+    exit(2);
 }
 
 foreach ($eventPaths as $pathname) {

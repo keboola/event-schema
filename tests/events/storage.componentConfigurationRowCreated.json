@@ -1,0 +1,40 @@
+{
+  "id": 174804869,
+  "event": "storage.componentConfigurationRowCreated",
+  "component": "storage",
+  "message": "Created component configuration row \"Event\" (kds-team.ex-salesforce-v2)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-27T20:26:03+0200",
+  "configurationId": null,
+  "objectId": "18275219",
+  "objectName": "Event",
+  "objectType": "componentConfigurationRow",
+  "context": {
+    "remoteAddr": "40.127.144.42:63481",
+    "httpReferer": null,
+    "httpUserAgent": "keboola-cli/dev",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "rowId": "18275219",
+    "name": "Event",
+    "version": 1,
+    "configuration": {
+      "component": "kds-team.ex-salesforce-v2",
+      "configurationId": "18275216",
+      "name": "[IN-CRM-SALESFORCE] Data Source /l4LVOpCo",
+      "version": 9
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 1307,
+    "name": "devel@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/174804869",
+  "attachments": []
+}

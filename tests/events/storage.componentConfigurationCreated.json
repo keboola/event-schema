@@ -1,0 +1,35 @@
+{
+  "id": 174804847,
+  "event": "storage.componentConfigurationCreated",
+  "component": "storage",
+  "message": "Created component configuration \"[IN-CRM-SALESFORCE] Transformation3: Snapshots /l4LVOpCo\" (keboola.snowflake-transformation)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-27T20:26:02+0200",
+  "configurationId": null,
+  "objectId": "18275227",
+  "objectName": "[IN-CRM-SALESFORCE] Transformation3: Snapshots /l4LVOpCo",
+  "objectType": "componentConfiguration",
+  "context": {
+    "remoteAddr": "40.127.144.42:63481",
+    "httpReferer": null,
+    "httpUserAgent": "keboola-cli/dev",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "component": "keboola.snowflake-transformation",
+    "configurationId": "18275227",
+    "name": "[IN-CRM-SALESFORCE] Transformation3: Snapshots /l4LVOpCo",
+    "version": 1
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 1307,
+    "name": "devel@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/174804847",
+  "attachments": []
+}

@@ -1,0 +1,10 @@
+{
+    "name": "root/code",
+    "require": {
+        "php": ">=8.1",
+        "justinrainbow/json-schema": "^5.2"
+    },
+    "scripts": {
+        "tests": "php tests/testSchemas.php"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["id","operation","admin","auditLogEventCreatedAt"],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "admin": {
+      "required": ["id","name","email"],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    "auditLogEventCreatedAt": {
+      "type": "string",
+      "format": "Y-m-d\\TH:i:sO"
+    }
+  }
+}

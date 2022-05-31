@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "allOf": [
+    {
+      "$ref": "../partials/_auditLog.organizationBase.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "enum": [
+            "auditLog.organization.projectCreated"
+          ]
+        }
+      }
+    }
+  ]
+}

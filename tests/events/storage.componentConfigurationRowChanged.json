@@ -1,0 +1,40 @@
+{
+  "id": 176381529,
+  "event": "storage.componentConfigurationRowChanged",
+  "component": "storage",
+  "message": "Changed component configuration row \"Sno2\" (transformation)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-31T12:55:35+0200",
+  "configurationId": null,
+  "objectId": "5796148",
+  "objectName": "Sno2",
+  "objectType": "componentConfigurationRow",
+  "context": {
+    "remoteAddr": "31.30.175.65:8028",
+    "httpReferer": "https://connection.north-europe.azure.keboola.com/admin/projects/36/transformations/bucket/5454364/transformation/5796148",
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "rowId": "5796148",
+    "name": "Sno2",
+    "version": 3,
+    "configuration": {
+      "component": "transformation",
+      "configurationId": "5454364",
+      "name": "Main",
+      "version": 75
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 24797,
+    "name": "jakub.turner@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/176381529",
+  "attachments": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 175092502,
+  "event": "storage.componentConfigurationChanged",
+  "component": "storage",
+  "message": "Changed component configuration \"My Shopify Data Source\" (kds-team.ex-shopify)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-28T11:22:48+0200",
+  "configurationId": null,
+  "objectId": "18311363",
+  "objectName": "My Shopify Data Source",
+  "objectType": "componentConfiguration",
+  "context": {
+    "remoteAddr": "40.127.144.42:64341",
+    "httpReferer": null,
+    "httpUserAgent": "keboola-cli/dev",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "component": "kds-team.ex-shopify",
+    "configurationId": "18311363",
+    "name": "My Shopify Data Source",
+    "version": 4
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 1307,
+    "name": "vaclav.nosek@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/175092502",
+  "attachments": []
+}

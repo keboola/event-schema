@@ -1,0 +1,35 @@
+{
+  "id": 165440300,
+  "event": "storage.devBranchDeleted",
+  "component": "storage",
+  "message": "Development branch \"oAuth test\" deleted",
+  "description": "",
+  "type": "info",
+  "runId": "16975199",
+  "created": "2022-05-06T16:27:04+0200",
+  "configurationId": null,
+  "objectId": "14236",
+  "objectName": "",
+  "objectType": "devBranch",
+  "context": {
+    "remoteAddr": null,
+    "httpReferer": null,
+    "httpUserAgent": null,
+    "apiVersion": "v2",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+    "async": true
+  },
+  "params": {
+    "devBranchName": "oAuth test",
+    "id": "14236"
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 1307,
+    "name": "vaclav.nosek@keboola.com"
+  },
+  "idBranch": null,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/165440300",
+  "attachments": []
+}

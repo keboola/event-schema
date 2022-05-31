@@ -1,0 +1,41 @@
+{
+  "id": 176389718,
+  "event": "storage.componentConfigurationCopied",
+  "component": "storage",
+  "message": "Copied component configuration \"Main\" to \"Main (Copy)\" (transformation)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-31T13:24:29+0200",
+  "configurationId": null,
+  "objectId": "18498529",
+  "objectName": "Main (Copy)",
+  "objectType": "componentConfiguration",
+  "context": {
+    "remoteAddr": "193.165.97.74:54648",
+    "httpReferer": "https://localhost:3000/",
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "component": "transformation",
+    "configurationId": "18498529",
+    "name": "Main (Copy)",
+    "version": 1,
+    "sourceConfiguration": {
+      "component": "transformation",
+      "configurationId": "5454364",
+      "name": "Main",
+      "version": 76
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 200,
+    "name": "jakub.kotek@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/176389718",
+  "attachments": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 176390269,
+  "event": "storage.componentConfigurationRowDeleted",
+  "component": "storage",
+  "message": "Deleted component configuration row \"test\" (keboola.ex-aws-s3)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-31T13:27:17+0200",
+  "configurationId": null,
+  "objectId": "18498603",
+  "objectName": "test",
+  "objectType": "componentConfigurationRow",
+  "context": {
+    "remoteAddr": "193.165.97.74:54648",
+    "httpReferer": "https://localhost:3000/",
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "rowId": "18498603",
+    "name": "test",
+    "version": 3,
+    "configuration": {
+      "component": "keboola.ex-aws-s3",
+      "configurationId": "9825899",
+      "name": "My AWS S3 Data Source",
+      "version": 6
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 200,
+    "name": "jakub.kotek@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/176390269",
+  "attachments": []
+}

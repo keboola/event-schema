@@ -1,0 +1,41 @@
+{
+  "id": 176390004,
+  "event": "storage.componentConfigurationRolledBack",
+  "component": "storage",
+  "message": "Rolled back component configuration \"[IN-CRM-HUBSPOT] Transformation2: Main /Ln7uOAKj\" (keboola.snowflake-transformation)",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-31T13:26:23+0200",
+  "configurationId": null,
+  "objectId": "17775374",
+  "objectName": "[IN-CRM-HUBSPOT] Transformation2: Main /Ln7uOAKj",
+  "objectType": "componentConfiguration",
+  "context": {
+    "remoteAddr": "193.165.97.74:54648",
+    "httpReferer": "https://localhost:3000/",
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "component": "keboola.snowflake-transformation",
+    "configurationId": "17775374",
+    "name": "[IN-CRM-HUBSPOT] Transformation2: Main /Ln7uOAKj",
+    "version": 4,
+    "sourceConfiguration": {
+      "component": "keboola.snowflake-transformation",
+      "configurationId": "17775374",
+      "name": "[IN-CRM-HUBSPOT] Transformation2: Main /Ln7uOAKj",
+      "version": 3
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 200,
+    "name": "jakub.kotek@keboola.com"
+  },
+  "idBranch": 36,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/176390004",
+  "attachments": []
+}

@@ -7,3 +7,7 @@ Example: file `schema/ext.keboola.keboola-as-code..json` is for the event `ext.k
 ## Development
 To run tests, first install dependencies using `docker-compose run --rm dev composer install` command. Now you can use
 `docker-compose run --rm dev composer tests` to run tests.
+
+## License
+
+MIT licensed, see [LICENSE](./LICENSE) file.

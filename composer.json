@@ -1,5 +1,5 @@
 {
-    "name": "root/code",
+    "name": "keboola/event-schema",
     "require": {
         "php": ">=8.1",
         "justinrainbow/json-schema": "^5.2"

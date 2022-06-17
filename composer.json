@@ -1,6 +1,6 @@
 {
     "name": "keboola/event-schema",
-    "require": {
+    "require-dev": {
         "php": ">=8.1",
         "justinrainbow/json-schema": "^5.2"
     },

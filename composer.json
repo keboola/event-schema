@@ -6,5 +6,8 @@
     },
     "scripts": {
         "tests": "php tests/testSchemas.php"
+    },
+    "config": {
+        "lock": false
     }
 }

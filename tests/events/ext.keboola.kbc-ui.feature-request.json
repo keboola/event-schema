@@ -1,0 +1,35 @@
+{
+  "id": 5848804814,
+  "event": "ext.keboola.kbc-ui.feature-request",
+  "component": "keboola.kbc-ui",
+  "message": "Request for a feature",
+  "description": "sandboxes-python-mlflow",
+  "type": "info",
+  "runId": null,
+  "created": "2022-07-21T16:01:23+0200",
+  "configurationId": "feature-request",
+  "objectId": "",
+  "objectName": "",
+  "objectType": "",
+  "context": {
+    "remoteAddr": "159.253.237.52",
+    "httpReferer": "https://localhost:3000/",
+    "httpUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "featureRequest": {
+      "reason": "I want it all, and I want it now!",
+      "feature": "sandboxes-python-mlflow"
+    }
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 257784,
+    "name": "vaclav.nosek@keboola.com"
+  },
+  "idBranch": 614,
+  "uri": "https://connection.keboola.com/v2/storage/events/5848804814",
+  "attachments": []
+}

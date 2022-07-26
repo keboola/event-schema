@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "component": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "configurationId": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "required": ["featureRequest"],
+      "properties": {
+        "featureRequest": {
+          "type": "object",
+          "required": ["reason", "feature"],
+          "properties": {
+            "reason": {
+              "type": "string"
+            },
+            "feature": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "component",
+    "message",
+    "description",
+    "type",
+    "configurationId",
+    "params"
+  ]
+}

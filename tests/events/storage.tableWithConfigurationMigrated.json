@@ -1,0 +1,39 @@
+{
+  "id": 1234455,
+  "event": "storage.tableWithConfigurationMigrated",
+  "component": "storage",
+  "message": "Development branch \"oAuth test\" created",
+  "description": "",
+  "type": "info",
+  "runId": "13226818",
+  "created": "2022-03-09T20:31:50+0100",
+  "configurationId": null,
+  "objectId": "14236",
+  "objectName": "oAuth test",
+  "objectType": "devBranch",
+  "context": {
+    "remoteAddr": null,
+    "httpReferer": null,
+    "httpUserAgent": null,
+    "apiVersion": "v2",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+    "async": true
+  },
+  "params": {
+    "tableName": "newTable",
+    "bucketId": "bucektId",
+    "configurationId": "main-1",
+    "migrationIndex": "0",
+    "executedQuery": "CREATE TABLE X",
+    "description": "desct"
+  },
+  "results": {},
+  "performance": {},
+  "token": {
+    "id": 1307,
+    "name": "devel@keboola.com"
+  },
+  "idBranch": null,
+  "uri": "https://connection.north-europe.azure.keboola.com/v2/storage/events/137469436",
+  "attachments": []
+}

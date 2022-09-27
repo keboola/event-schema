@@ -1,6 +1,6 @@
 {
   "id": 12345,
-  "event": "storage.tableWithConfigurationMigrated",
+  "event": "storage.tableWithConfigurationMigrationFailed",
   "objectId": "in.c-API-tests-3b2eaaccbfaf1f73307fa70d8657c358b1545a67.custom-tafsdfsdble-1",
   "idProject": 78,
   "idAdmin": null,
@@ -23,7 +23,7 @@
   },
   "performance": [],
   "idEvent": null,
-  "type": "info",
+  "type": "error",
   "description": "",
   "context": {
     "remoteAddr": null,

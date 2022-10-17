@@ -1,0 +1,44 @@
+{
+  "id": 12345,
+  "event": "storage.tableWithConfigurationMigrationFailed",
+  "objectId": "in.c-API-tests-3b2eaaccbfaf1f73307fa70d8657c358b1545a67.custom-tafsdfsdble-1",
+  "idProject": 78,
+  "idAdmin": null,
+  "idAccount": null,
+  "idExport": null,
+  "idAccessToken": "212",
+  "accessTokenName": "devel+test-backend_admin@keboola.com",
+  "idBucket": 67,
+  "idWorkspace": null,
+  "tableName": "custom-table-1",
+  "objectType": "table",
+  "objectName": "custom-table-1",
+  "created": "2022-05-06T16:27:04+0200",
+  "params": {
+    "configurationId": "main-1",
+    "configurationVersion": 1,
+    "migrationIndex": 0,
+    "executedQuery": "CREATE TABLE \"in.c-API-tests-3b2eaaccbfaf1f73307fa70d8657c358b1545a67\".\"custom-tafsdfsdble-1\" (id integer, name varchar(100))",
+    "description": "first ever"
+  },
+  "performance": [],
+  "idEvent": null,
+  "type": "error",
+  "description": "",
+  "context": {
+    "remoteAddr": null,
+    "httpReferer": null,
+    "httpUserAgent": null
+  },
+  "results": [],
+  "component": "storage",
+  "message": "events.",
+  "runId": null,
+  "configurationId": null,
+  "fileIds": [],
+  "idBranch": null,
+  "token": {
+    "id": 1307,
+    "name": "devel@keboola.com"
+  }
+}

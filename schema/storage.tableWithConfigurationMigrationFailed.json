@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "event": {
+      "type": "string"
+    },
+    "objectType": {
+      "type": "string"
+    },
+    "objectName": {
+      "type": "string"
+    },
+    "objectId": {
+      "type": "string"
+    },
+    "tableName": {
+      "type": "string"
+    },
+    "idBucket": {
+      "type": "integer"
+    },
+    "idProject": {
+      "type": "integer"
+    },
+    "created": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "configurationId": {
+          "type": "string"
+        },
+        "configurationVersion": {
+          "type": "integer"
+        },
+        "migrationIndex": {
+          "type": "integer"
+        },
+        "executedQuery": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "configurationId",
+        "configurationVersion",
+        "migrationIndex",
+        "executedQuery"
+      ]
+    },
+    "token": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "event",
+    "objectType",
+    "objectId",
+    "objectName",
+    "tableName",
+    "idProject",
+    "idBucket",
+    "created",
+    "params",
+    "token"
+  ]
+}

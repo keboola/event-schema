@@ -12,23 +12,34 @@
   "objectName": "",
   "objectType": "",
   "context": {
-      "remoteAddr": "20.253.172.73",
-      "httpReferer": null,
-      "httpUserAgent": "keboola-worker",
-      "apiVersion": "v2"
+    "remoteAddr": "20.253.172.73",
+    "httpReferer": null,
+    "httpUserAgent": "keboola-worker",
+    "apiVersion": "v2"
   },
   "params": {
-      "task": "upload-slice"
+    "task": "upload-slice"
   },
   "results": {
-      "projectId": 8763
+    "projectId": 8763,
+    "receiverId": "my-receiver",
+    "exportId": "my-export",
+    "statistics": {
+      "lastRecordAt": "2022-05-27T17:10:20+0200",
+      "recordsCount": 1234,
+      "recordsSize": 1234,
+      "bodySize": 1234,
+      "fileSize": 1234,
+      "fileGZipSize": 1234
+    }
   },
   "performance": {},
   "token": {
-      "id": 397681,
-      "name": "michal.jurecko@keboola.com"
+    "id": 397681,
+    "name": "michal.jurecko@keboola.com"
   },
   "idBranch": 59944,
   "uri": "https://connection.keboola.com/v2/storage/events/5572396059",
   "attachments": []
 }
+

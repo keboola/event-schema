@@ -25,7 +25,7 @@
     "receiverId": "my-receiver",
     "exportId": "my-export",
     "statistics": {
-      "lastRecordAt": "2022-05-27T17:10:20+0200",
+      "lastRecordAt": "2006-01-02T15:04:05.000Z",
       "recordsCount": 1234,
       "recordsSize": 1234,
       "bodySize": 1234,

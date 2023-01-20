@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "task": {
+          "type": "string"
+        }
+      },
+      "required": ["task"]
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "projectId": {
+          "type": "integer"
+        },
+        "receiverId": {
+          "type": "string"
+        },
+        "exportId": {
+          "type": "string"
+        },
+        "statistics": {
+          "type": "object",
+          "properties": {
+            "lastRecordAt": { "type": "string" },
+            "recordsCount": { "type": "integer" },
+            "recordsSize": { "type": "integer" },
+            "bodySize": { "type": "integer" },
+            "fileSize": { "type": "integer" },
+            "fileGZipSize": { "type": "integer" }
+          },
+          "required": [
+            "lastRecordAt",
+            "recordsCount",
+            "recordsSize",
+            "bodySize",
+            "fileSize",
+            "fileGZipSize"
+          ]
+        },
+        "error": {
+          "type": "string"
+        }
+      },
+      "required": ["projectId", "receiverId", "exportId"]
+    }
+  },
+  "required": ["message", "params", "results"]
+}
+

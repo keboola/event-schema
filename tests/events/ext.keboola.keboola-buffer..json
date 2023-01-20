@@ -1,0 +1,45 @@
+{
+  "id": 5572396059,
+  "event": "ext.keboola.keboola-buffer.",
+  "component": "keboola.keboola-buffer",
+  "message": "Slice upload done.",
+  "description": "",
+  "type": "info",
+  "runId": null,
+  "created": "2022-05-27T17:10:20+0200",
+  "configurationId": null,
+  "objectId": "",
+  "objectName": "",
+  "objectType": "",
+  "context": {
+    "remoteAddr": "20.253.172.73",
+    "httpReferer": null,
+    "httpUserAgent": "keboola-worker",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "task": "upload-slice"
+  },
+  "results": {
+    "projectId": 8763,
+    "receiverId": "my-receiver",
+    "exportId": "my-export",
+    "statistics": {
+      "lastRecordAt": "2006-01-02T15:04:05.000Z",
+      "recordsCount": 1234,
+      "recordsSize": 1234,
+      "bodySize": 1234,
+      "fileSize": 1234,
+      "fileGZipSize": 1234
+    }
+  },
+  "performance": {},
+  "token": {
+    "id": 397681,
+    "name": "michal.jurecko@keboola.com"
+  },
+  "idBranch": 59944,
+  "uri": "https://connection.keboola.com/v2/storage/events/5572396059",
+  "attachments": []
+}
+

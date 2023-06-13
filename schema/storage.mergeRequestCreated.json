@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "event": {
+      "type": "string"
+    },
+    "objectType": {
+      "type": "string"
+    },
+    "objectName": {
+      "type": "string"
+    },
+    "objectId": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "mergeRequestId": {
+          "type": "integer"
+        },
+        "creatorId": {
+          "type": "integer"
+        }
+      },
+      "required": ["mergeRequestId", "creatorId"]
+    },
+    "token": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  "required": ["id", "event", "objectType", "objectId", "objectName", "created", "params", "token"]
+}

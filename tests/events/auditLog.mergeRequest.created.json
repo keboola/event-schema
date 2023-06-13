@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "operation": "auditLog.mergeRequest.created",
+  "auditLogEventCreatedAt": "2022-05-28T12:00:00+0200",
+  "request": {
+    "remoteAddr": "127.0.0.1"
+  },
+  "admin": {
+    "id": 1,
+    "name": "Keboola DEV",
+    "email": "devel@keboola.com"
+  },
+  "context": {
+    "project": {
+      "id": 1,
+      "name": "Test Project"
+    },
+    "mergeRequest": {
+      "id": 1,
+      "name": "Change Extractor"
+    }
+  }
+}

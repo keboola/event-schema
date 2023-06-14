@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "allOf": [
+    {
+      "$ref": "../partials/_auditLog.base.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "enum": ["auditLog.mergeRequest.approvalReceived"]
+        },
+        "context": {
+          "type": "object",
+          "required": ["mergeRequest", "project"],
+          "properties": {
+            "mergeReuqest": {
+              "type": "object",
+              "required": ["id","name"],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              }
+            },
+            "project": {
+              "type": "object",
+              "required": ["id","name"],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

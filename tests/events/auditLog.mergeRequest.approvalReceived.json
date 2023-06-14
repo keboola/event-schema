@@ -18,10 +18,6 @@
     "mergeRequest": {
       "id": 1,
       "name": "Change Extractor"
-    },
-    "approval": {
-      "approverId": 1,
-      "approvalsMissing": 1
     }
   }
 }

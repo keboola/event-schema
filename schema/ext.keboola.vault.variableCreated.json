@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "component": {
+      "type": "string",
+      "const": "keboola.variables"
+    },
+    "configurationId": {
+      "type": "string",
+      "const": "variableCreated"
+    },
+    "message": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object"
+        },
+        "hash": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "group": {
+          "type": ["string", "null"]
+        }
+      },
+      "required": [
+        "key", "attributes", "hash", "value"
+      ]
+    }
+  },
+  "required": [
+    "component",
+    "configurationId",
+    "message",
+    "params"
+  ]
+}

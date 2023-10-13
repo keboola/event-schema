@@ -1,0 +1,41 @@
+{
+  "id": 7539656551,
+  "event": "ext.keboola.vault.variableCreated",
+  "component": "keboola.vault",
+  "message": "Variable \"my_variable\" created",
+  "description": "",
+  "type": "info",
+  "runId": "run-6528167f38863",
+  "created": "2023-10-12T17:53:39+0200",
+  "configurationId": "variableCreated",
+  "objectId": "",
+  "objectName": "",
+  "objectType": "",
+  "context": {
+    "remoteAddr": "185.25.95.36",
+    "httpReferer": null,
+    "httpUserAgent": "Keboola Storage API PHP Client\/14 Vault",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "key": "my_variable",
+    "attributes": {
+      "componentId": "keboola.component",
+      "configId": "789",
+      "random": "905452"
+    },
+    "hash": "8b931062ee03b4dce02ce567ba23ac23263b6b3569611dccb8ec19a1b94051be",
+    "value": "My variable value",
+    "flags": [],
+    "group": null
+  },
+  "results": [],
+  "performance": [],
+  "token": {
+    "id": 594136,
+    "name": "vault"
+  },
+  "idBranch": 9572,
+  "uri": "https:\/\/connection.keboola.com\/v2\/storage\/events\/7539656551",
+  "attachments": []
+}

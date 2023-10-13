@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "component": {
+      "type": "string",
+      "const": "keboola.variables"
+    },
+    "configurationId": {
+      "type": "string",
+      "const": "variableDeleted"
+    },
+    "message": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object"
+        },
+        "hash": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "key", "attributes", "hash"
+      ]
+    }
+  },
+  "required": [
+    "component",
+    "configurationId",
+    "message",
+    "params"
+  ]
+}

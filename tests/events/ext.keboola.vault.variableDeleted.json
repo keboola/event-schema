@@ -1,0 +1,36 @@
+{
+  "id": 7539658261,
+  "event": "ext.keboola.vault.variableDeleted",
+  "component": "keboola.vault",
+  "message": "Variable \"var1\" deleted",
+  "description": "",
+  "type": "info",
+  "runId": "run-652816a3d9ba0",
+  "created": "2023-10-12T17:54:13+0200",
+  "configurationId": "variableDeleted",
+  "objectId": "",
+  "objectName": "",
+  "objectType": "",
+  "context": {
+    "remoteAddr": "185.25.95.36",
+    "httpReferer": null,
+    "httpUserAgent": "Keboola Storage API PHP Client\/14 Vault",
+    "apiVersion": "v2"
+  },
+  "params": {
+    "key": "var1",
+    "attributes": {
+      "random": "294944"
+    },
+    "hash": "24e87056c2ea5b177c6e828e10dcd8fb01c4a0c078be79609aeacc5ca4a8cf32"
+  },
+  "results": [],
+  "performance": [],
+  "token": {
+    "id": 594136,
+    "name": "vault"
+  },
+  "idBranch": 9572,
+  "uri": "https:\/\/connection.keboola.com\/v2\/storage\/events\/7539658261",
+  "attachments": []
+}

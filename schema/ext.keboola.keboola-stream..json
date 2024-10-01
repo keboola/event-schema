@@ -40,7 +40,7 @@
                         },
                         "stagingSize": {
                             "type": "integer"
-                        },
+                        }
                     },
                     "required": [
                         "firstRecordAt",

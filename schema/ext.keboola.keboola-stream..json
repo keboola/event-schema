@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "results": {
+            "type": "object",
+            "properties": {
+                "projectId": {
+                    "type": "integer"
+                },
+                "sourceId": {
+                    "type": "string"
+                },
+                "sinkId": {
+                    "type": "string"
+                },
+                "statistics": {
+                    "type": "object",
+                    "properties": {
+                        "firstRecordAt": {
+                            "type": "string"
+                        },
+                        "lastRecordAt": {
+                            "type": "string"
+                        },
+                        "recordsCount": {
+                            "type": "integer"
+                        },
+                        "slicesCount": {
+                            "type": "integer"
+                        },
+                        "uncompressedSize": {
+                            "type": "integer"
+                        },
+                        "compressedSize": {
+                            "type": "integer"
+                        },
+                        "stagingSize": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "firstRecordAt",
+                        "lastRecordAt",
+                        "recordsCount",
+                        "slicesCount",
+                        "uncompressedSize",
+                        "compressedSize",
+                        "stagingSize"
+                    ]
+                },
+                "error": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "projectId",
+                "sourceId",
+                "sinkId"
+            ]
+        }
+    },
+    "required": [
+        "message",
+        "results"
+    ]
+}

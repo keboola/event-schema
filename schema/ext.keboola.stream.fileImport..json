@@ -14,9 +14,6 @@
                 "sourceId": {
                     "type": "string"
                 },
-                "sourceName": {
-                    "type": "string"
-                },
                 "sinkId": {
                     "type": "string"
                 },
@@ -44,7 +41,16 @@
                         "stagingSize": {
                             "type": "integer"
                         }
-                    }
+                    },
+                    "required": [
+                        "firstRecordAt",
+                        "lastRecordAt",
+                        "recordsCount",
+                        "slicesCount",
+                        "uncompressedSize",
+                        "compressedSize",
+                        "stagingSize"
+                    ]
                 },
                 "error": {
                     "type": "string"

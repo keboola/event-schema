@@ -1,8 +1,8 @@
 {
-    "id": 5572396062,
-    "event": "ext.keboola.keboola-stream.",
-    "component": "keboola.keboola-stream",
-    "message": "Source purged.",
+    "id": 5572396059,
+    "event": "ext.keboola.stream.sourceCreate",
+    "component": "keboola.stream.sourceCreate",
+    "message": "Source created.",
     "description": "",
     "type": "info",
     "runId": null,
@@ -16,9 +16,6 @@
         "httpReferer": null,
         "httpUserAgent": "storage-reader",
         "apiVersion": "v2"
-    },
-    "params": {
-        "event": "source-purge"
     },
     "results": {
         "projectId": 8763,

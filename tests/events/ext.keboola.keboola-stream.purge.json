@@ -1,8 +1,8 @@
 {
-    "id": 5572396061,
+    "id": 5572396062,
     "event": "ext.keboola.keboola-stream.",
     "component": "keboola.keboola-stream",
-    "message": "Source deleted.",
+    "message": "Source purged.",
     "description": "",
     "type": "info",
     "runId": null,
@@ -18,7 +18,7 @@
         "apiVersion": "v2"
     },
     "params": {
-        "event": "source-delete"
+        "event": "source-purge"
     },
     "results": {
         "projectId": 8763,

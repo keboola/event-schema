@@ -1,0 +1,38 @@
+{
+    "id": 5572396059,
+    "event": "ext.keboola.keboola-stream.",
+    "component": "keboola.keboola-stream",
+    "message": "Source create done.",
+    "description": "",
+    "type": "info",
+    "runId": null,
+    "created": "2024-10-01T16:10:20+0200",
+    "configurationId": null,
+    "objectId": "",
+    "objectName": "",
+    "objectType": "",
+    "context": {
+        "remoteAddr": "20.253.172.73",
+        "httpReferer": null,
+        "httpUserAgent": "storage-reader",
+        "apiVersion": "v2"
+    },
+    "params": {
+        "event": "source-create"
+    },
+    "results": {
+        "projectId": 8763,
+        "sourceId": "my-source",
+        "sourceName": "My stream v1",
+        "sinkId": "my-sink",
+        "error": ""
+    },
+    "performance": {},
+    "token": {
+        "id": 397681,
+        "name": "martin.vasko@keboola.com"
+    },
+    "idBranch": 59944,
+    "uri": "https://connection.keboola.com/v2/storage/events/5572396059",
+    "attachments": []
+}

@@ -1,5 +1,5 @@
 {
-    "id": 5572396059,
+    "id": 5572396060,
     "event": "ext.keboola.keboola-stream.",
     "component": "keboola.keboola-stream",
     "message": "Slice upload done.",
@@ -17,6 +17,9 @@
         "httpUserAgent": "storage-reader",
         "apiVersion": "v2"
     },
+    "params": {
+        "event": "file-import"
+    },
     "results": {
         "projectId": 8763,
         "sourceId": "my-source",
@@ -29,7 +32,8 @@
             "uncompressedSize": 1000,
             "compressedSize": 100,
             "stagingSize": 100
-        }
+        },
+        "error": ""
     },
     "performance": {},
     "token": {

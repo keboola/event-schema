@@ -1,12 +1,12 @@
 {
-    "id": 5572396060,
-    "event": "ext.keboola.stream.fileImport",
-    "component": "keboola.stream.fileImport",
-    "message": "File import done.",
+    "id": 5572396062,
+    "event": "ext.keboola.stream.sourceDelete",
+    "component": "keboola.stream.sourceDelete",
+    "message": "Source deleted.",
     "description": "",
     "type": "info",
     "runId": null,
-    "created": "2024-10-01T17:11:20+0200",
+    "created": "2024-10-01T17:15:20+0200",
     "configurationId": null,
     "objectId": "",
     "objectName": "",
@@ -20,16 +20,8 @@
     "results": {
         "projectId": 8763,
         "sourceId": "my-source",
+        "sourceName": "My stream v1",
         "sinkId": "my-sink",
-        "statistics": {
-            "firstRecordAt": "2006-01-02T15:04:05.000Z",
-            "lastRecordAt": "2006-01-02T15:06:05.000Z",
-            "recordsCount": 1234,
-            "slicesCount": 123,
-            "uncompressedSize": 1000,
-            "compressedSize": 100,
-            "stagingSize": 100
-        },
         "error": ""
     },
     "performance": {},

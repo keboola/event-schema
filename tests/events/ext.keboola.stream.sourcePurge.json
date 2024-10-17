@@ -21,7 +21,6 @@
         "projectId": 8763,
         "sourceId": "my-source",
         "sourceName": "My stream v1",
-        "sinkId": "my-sink",
         "error": ""
     },
     "performance": {},

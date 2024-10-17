@@ -17,9 +17,6 @@
                 "sourceName": {
                     "type": "string"
                 },
-                "sinkId": {
-                    "type": "string"
-                },
                 "error": {
                     "type": "string"
                 }
@@ -27,8 +24,7 @@
             "required": [
                 "projectId",
                 "sourceId",
-                "sourceName",
-                "sinkId"
+                "sourceName"
             ]
         }
     },

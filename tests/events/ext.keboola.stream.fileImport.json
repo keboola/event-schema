@@ -19,7 +19,9 @@
     },
     "results": {
         "projectId": 8763,
+        "branchId": 1,
         "sourceId": "my-source",
+        "streamId": "8763/1/my-source",
         "sinkId": "my-sink",
         "statistics": {
             "firstRecordAt": "2006-01-02T15:04:05.000Z",

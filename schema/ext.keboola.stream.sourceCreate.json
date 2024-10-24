@@ -11,7 +11,13 @@
                 "projectId": {
                     "type": "integer"
                 },
+                "branchId": {
+                    "type": "integer"
+                },
                 "sourceId": {
+                    "type": "string"
+                },
+                "streamId": {
                     "type": "string"
                 },
                 "sourceName": {
@@ -23,7 +29,9 @@
             },
             "required": [
                 "projectId",
+                "branchId",
                 "sourceId",
+                "streamId",
                 "sourceName"
             ]
         }

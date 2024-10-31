@@ -5,7 +5,7 @@
         "message": {
             "type": "string"
         },
-        "results": {
+        "params": {
             "type": "object",
             "properties": {
                 "projectId": {
@@ -38,6 +38,6 @@
     },
     "required": [
         "message",
-        "results"
+        "params"
     ]
 }

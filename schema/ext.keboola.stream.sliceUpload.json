@@ -69,10 +69,76 @@
                 "streamId",
                 "sinkId"
             ]
+        },
+        "results": {
+            "type": "object",
+            "properties": {
+                "projectId": {
+                    "type": "integer"
+                },
+                "branchId": {
+                    "type": "integer"
+                },
+                "sourceId": {
+                    "type": "string"
+                },
+                "streamId": {
+                    "type": "string"
+                },
+                "sinkId": {
+                    "type": "string"
+                },
+                "statistics": {
+                    "type": "object",
+                    "properties": {
+                        "firstRecordAt": {
+                            "type": "string"
+                        },
+                        "lastRecordAt": {
+                            "type": "string"
+                        },
+                        "recordsCount": {
+                            "type": "integer"
+                        },
+                        "slicesCount": {
+                            "type": "integer"
+                        },
+                        "uncompressedSize": {
+                            "type": "integer"
+                        },
+                        "compressedSize": {
+                            "type": "integer"
+                        },
+                        "stagingSize": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "firstRecordAt",
+                        "lastRecordAt",
+                        "recordsCount",
+                        "slicesCount",
+                        "uncompressedSize",
+                        "compressedSize",
+                        "stagingSize"
+                    ]
+                },
+                "error": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "projectId",
+                "branchId",
+                "sourceId",
+                "streamId",
+                "sinkId"
+            ]
         }
     },
     "required": [
         "message",
-        "params"
+        "params",
+        "results"
     ]
 }

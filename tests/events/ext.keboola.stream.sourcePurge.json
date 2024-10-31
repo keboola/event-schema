@@ -17,6 +17,14 @@
         "httpUserAgent": "storage-reader",
         "apiVersion": "v2"
     },
+    "params": {
+        "projectId": 8763,
+        "branchId": 1,
+        "sourceId": "my-source",
+        "streamId": "8763/1/my-source",
+        "sourceName": "My stream v1",
+        "error": ""
+    },
     "results": {
         "projectId": 8763,
         "branchId": 1,

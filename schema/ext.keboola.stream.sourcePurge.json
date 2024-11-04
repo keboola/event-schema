@@ -5,6 +5,36 @@
         "message": {
             "type": "string"
         },
+        "params": {
+            "type": "object",
+            "properties": {
+                "projectId": {
+                    "type": "integer"
+                },
+                "branchId": {
+                    "type": "integer"
+                },
+                "sourceId": {
+                    "type": "string"
+                },
+                "streamId": {
+                    "type": "string"
+                },
+                "sourceName": {
+                    "type": "string"
+                },
+                "error": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "projectId",
+                "branchId",
+                "sourceId",
+                "streamId",
+                "sourceName"
+            ]
+        },
         "results": {
             "type": "object",
             "properties": {
@@ -38,6 +68,7 @@
     },
     "required": [
         "message",
+        "params",
         "results"
     ]
 }

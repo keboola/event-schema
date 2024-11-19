@@ -22,9 +22,6 @@
                 },
                 "sourceName": {
                     "type": "string"
-                },
-                "error": {
-                    "type": "string"
                 }
             },
             "required": [
@@ -38,37 +35,14 @@
         "results": {
             "type": "object",
             "properties": {
-                "projectId": {
-                    "type": "integer"
-                },
-                "branchId": {
-                    "type": "integer"
-                },
-                "sourceId": {
-                    "type": "string"
-                },
-                "streamId": {
-                    "type": "string"
-                },
-                "sourceName": {
-                    "type": "string"
-                },
                 "error": {
                     "type": "string"
                 }
-            },
-            "required": [
-                "projectId",
-                "branchId",
-                "sourceId",
-                "streamId",
-                "sourceName"
-            ]
+            }
         }
     },
     "required": [
         "message",
-        "params",
-        "results"
+        "params"
     ]
 }

@@ -22,24 +22,9 @@
         "branchId": 1,
         "sourceId": "my-source",
         "streamId": "8763/1/my-source",
-        "sinkId": "my-sink",
-        "statistics": {
-            "firstRecordAt": "2006-01-02T15:04:05.000Z",
-            "lastRecordAt": "2006-01-02T15:06:05.000Z",
-            "recordsCount": 1234,
-            "slicesCount": 123,
-            "uncompressedSize": 1000,
-            "compressedSize": 100,
-            "stagingSize": 100
-        },
-        "error": ""
+        "sinkId": "my-sink"
     },
     "results": {
-        "projectId": 8763,
-        "branchId": 1,
-        "sourceId": "my-source",
-        "streamId": "8763/1/my-source",
-        "sinkId": "my-sink",
         "statistics": {
             "firstRecordAt": "2006-01-02T15:04:05.000Z",
             "lastRecordAt": "2006-01-02T15:06:05.000Z",

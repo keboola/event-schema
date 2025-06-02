@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "mcp-server-context": {
+      "type": "object",
+      "properties": {
+        "app_env": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "user_agent": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "app_env",
+        "version",
+        "user_agent"
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "arguments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": { "type": "string" },
+              "value": { "type": "string" }
+            },
+            "required": ["key", "value"]
+          }
+        }
+      },
+      "required": [
+        "name",
+        "arguments"
+      ]
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "error": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "mcp-server-context",
+    "message",
+    "tool",
+    "results"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 1234567890,
+    "event": "ext.keboola.mcp-server.tool",
+    "component": "keboola.mcp-server.tool",
+    "message": "Test message for mcp-server",
+    "description": "This is a test event for the mcp-server schema.",
+    "type": "info",
+    "runId": null,
+    "created": "2024-07-15T10:00:00+0200",
+    "configurationId": "test-config-id",
+    "objectId": "test-object-id",
+    "objectName": "Test Object",
+    "objectType": "testObjectType",
+    "mcp-server-context": {
+        "app_env": "remote",
+        "version": "1.0.0",
+        "user_agent": "mcp-server-test-suite"
+    },
+    "context": {
+        "remoteAddr": "127.0.0.1",
+        "httpReferer": null,
+        "httpUserAgent": "mcp-server-test-suite",
+        "apiVersion": "v1"
+    },
+    "tool": {
+        "name": "test-tool",
+        "arguments": [
+            {
+                "key": "arg1",
+                "value": "value1"
+            },
+            {
+                "key": "arg2",
+                "value": "value2"
+            }
+        ]
+    },
+    "results": {
+        "error": ""
+    },
+    "performance": {},
+    "token": {
+        "id": 98765,
+        "name": "test-user@keboola.com"
+    },
+    "idBranch": 67890,
+    "uri": "https://connection.keboola.com/v2/storage/events/1234567890",
+    "attachments": []
+} 

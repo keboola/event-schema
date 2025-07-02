@@ -14,7 +14,8 @@
     "mcp-server-context": {
         "app_env": "remote",
         "version": "1.0.0",
-        "user_agent": "mcp-server-test-suite"
+        "user_agent": "mcp-server-test-suite",
+        "sessionId": "1234567890"
     },
     "context": {
         "remoteAddr": "127.0.0.1",

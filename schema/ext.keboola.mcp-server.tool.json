@@ -13,12 +13,16 @@
         },
         "user_agent": {
           "type": "string"
+        },
+        "sessionId": {
+          "type": "string"
         }
       },
       "required": [
         "app_env",
         "version",
-        "user_agent"
+        "user_agent",
+        "sessionId"
       ]
     },
     "message": {

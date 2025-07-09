@@ -17,10 +17,10 @@
         "httpUserAgent": "mcp-server-test-suite",
         "apiVersion": "v1"
     },
-    "mcp-server-context": {
-        "app_env": "remote",
+    "mcpServerContext": {
+        "appEnv": "remote",
         "version": "1.0.0",
-        "user_agent": "mcp-server-local",
+        "userAgent": "mcp-server-local",
         "sessionId": "1234567890"
     },
     "tool": {

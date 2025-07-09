@@ -50,20 +50,11 @@
         "name",
         "arguments"
       ]
-    },
-    "results": {
-      "type": "object",
-      "properties": {
-        "error": {
-          "type": "string"
-        }
-      }
     }
   },
   "required": [
     "mcpServerContext",
     "message",
-    "tool",
-    "results"
+    "tool"
   ]
 }

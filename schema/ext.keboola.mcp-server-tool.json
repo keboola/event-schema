@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "mcpServerContext": {
+      "type": "object",
+      "properties": {
+        "appEnv": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "userAgent": {
+          "type": "string"
+        },
+        "sessionId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "appEnv",
+        "version",
+        "userAgent",
+        "sessionId"
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "arguments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": { "type": "string" },
+              "value": { "type": "string" }
+            },
+            "required": ["key", "value"]
+          }
+        }
+      },
+      "required": [
+        "name",
+        "arguments"
+      ]
+    }
+  },
+  "required": [
+    "mcpServerContext",
+    "message",
+    "tool"
+  ]
+}

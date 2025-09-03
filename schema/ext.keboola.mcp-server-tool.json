@@ -16,13 +16,17 @@
         },
         "sessionId": {
           "type": "string"
+        },
+        "serverTransport": {
+          "type": "string"
         }
       },
       "required": [
         "appEnv",
         "version",
         "userAgent",
-        "sessionId"
+        "sessionId",
+        "serverTransport"
       ]
     },
     "message": {

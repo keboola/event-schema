@@ -33,8 +33,7 @@
         "appEnv",
         "version",
         "userAgent",
-        "sessionId",
-        "serverTransport"
+        "sessionId"
       ]
     },
     "message": {

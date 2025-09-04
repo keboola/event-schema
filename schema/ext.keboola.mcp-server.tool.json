@@ -16,6 +16,17 @@
         },
         "sessionId": {
           "type": "string"
+        },
+        "serverTransport": {
+          "type": "string",
+          "enum": [
+            "stdio",
+            "http",
+            "sse",
+            "streamable-http",
+            "http-compat",
+            "NA"
+          ]
         }
       },
       "required": [

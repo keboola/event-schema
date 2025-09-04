@@ -1,8 +1,8 @@
 {
-    "id": 1234567890,
+    "id": 1234567892,
     "event": "ext.keboola.mcp-server-tool",
     "component": "keboola.mcp-server-tool",
-    "message": "Test message for mcp-server",
+    "message": "Test message for mcp-server (sse)",
     "description": "",
     "type": "info",
     "runId": null,
@@ -21,8 +21,8 @@
         "appEnv": "remote",
         "version": "1.0.0",
         "userAgent": "mcp-server-local",
-        "sessionId": "1234567890",
-        "serverTransport": "streamable-http"
+        "sessionId": "1234567892",
+        "serverTransport": "sse"
     },
     "tool": {
         "name": "list-buckets",
@@ -43,6 +43,8 @@
         "name": "test-user@keboola.com"
     },
     "idBranch": 67890,
-    "uri": "https://connection.keboola.com/v2/storage/events/1234567890",
+    "uri": "https://connection.keboola.com/v2/storage/events/1234567892",
     "attachments": []
 }
+
+

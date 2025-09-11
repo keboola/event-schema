@@ -21,8 +21,7 @@
         "appEnv": "remote",
         "version": "1.0.0",
         "userAgent": "mcp-server-local",
-        "sessionId": "1234567890",
-        "serverTransport": "stdio"
+        "sessionId": "1234567890"
     },
     "tool": {
         "name": "list-buckets",

@@ -1,0 +1,52 @@
+{
+    "id": 2234567900,
+    "event": "ext.keboola.in-platform-chat",
+    "component": "keboola.in-platform-chat",
+    "message": "Test message for in-platform-chat (no serverTransport)",
+    "description": "",
+    "type": "info",
+    "runId": null,
+    "created": "2024-07-15T10:00:00+0200",
+    "configurationId": null,
+    "objectId": "",
+    "objectName": "",
+    "objectType": "",
+    "context": {
+        "remoteAddr": "127.0.0.1",
+        "httpReferer": null,
+        "httpUserAgent": "in-platform-chat-test-suite",
+        "apiVersion": "v1"
+    },
+    "mcpServerContext": {
+        "appEnv": "remote",
+        "version": "1.0.0",
+        "userAgent": "in-platform-chat-local",
+        "sessionId": "2234567900",
+        "conversationId": "conv-001"
+    },
+    "tool": {
+        "name": "send-message",
+        "arguments": [
+            {
+                "key": "channel",
+                "value": "workspace"
+            },
+            {
+                "key": "priority",
+                "value": "normal"
+            }
+        ]
+    },
+    "performance": {},
+    "token": {
+        "id": 98765,
+        "name": "test-user@keboola.com"
+    },
+    "idBranch": 67890,
+    "uri": "https://connection.keboola.com/v2/storage/events/2234567900",
+    "attachments": []
+}
+
+
+
+

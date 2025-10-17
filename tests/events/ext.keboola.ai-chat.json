@@ -1,8 +1,8 @@
 {
     "id": 3234567893,
-    "event": "ext.keboola.ro-chat",
-    "component": "keboola.ro-chat",
-    "message": "Test message for ro-chat (base)",
+    "event": "ext.keboola.ai-chat",
+    "component": "keboola.ai-chat",
+    "message": "Test message for ai-chat (base)",
     "description": "",
     "type": "info",
     "runId": null,
@@ -14,15 +14,15 @@
     "context": {
         "remoteAddr": "127.0.0.1",
         "httpReferer": null,
-        "httpUserAgent": "ro-chat-test-suite",
+        "httpUserAgent": "ai-chat-test-suite",
         "apiVersion": "v1"
     },
     "mcpServerContext": {
         "appEnv": "remote",
         "version": "1.0.0",
-        "userAgent": "ro-chat-local",
+        "userAgent": "ai-chat-local",
         "sessionId": "3234567893",
-        "conversationId": "conv-ro-001",
+        "conversationId": "conv-ai-001",
         "serverTransport": "http"
     },
     "tool": {

@@ -1,8 +1,8 @@
 {
-    "id": 2234567900,
-    "event": "ext.keboola.in-platform-chat",
-    "component": "keboola.in-platform-chat",
-    "message": "Test message for in-platform-chat (no serverTransport)",
+    "id": 3234567900,
+    "event": "ext.keboola.ai-chat",
+    "component": "keboola.ai-chat",
+    "message": "Test message for ai-chat (no serverTransport)",
     "description": "",
     "type": "info",
     "runId": null,
@@ -14,15 +14,15 @@
     "context": {
         "remoteAddr": "127.0.0.1",
         "httpReferer": null,
-        "httpUserAgent": "in-platform-chat-test-suite",
+        "httpUserAgent": "ai-chat-test-suite",
         "apiVersion": "v1"
     },
     "mcpServerContext": {
         "appEnv": "remote",
         "version": "1.0.0",
-        "userAgent": "in-platform-chat-local",
-        "sessionId": "2234567900",
-        "conversationId": "conv-001"
+        "userAgent": "ai-chat-local",
+        "sessionId": "3234567900",
+        "conversationId": "conv-ai-001"
     },
     "tool": {
         "name": "send-message",
@@ -43,7 +43,7 @@
         "name": "test-user@keboola.com"
     },
     "idBranch": 67890,
-    "uri": "https://connection.keboola.com/v2/storage/events/2234567900",
+    "uri": "https://connection.keboola.com/v2/storage/events/3234567900",
     "attachments": []
 }
 

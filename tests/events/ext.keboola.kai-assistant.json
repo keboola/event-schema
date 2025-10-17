@@ -1,8 +1,8 @@
 {
-    "id": 3234567900,
-    "event": "ext.keboola.ro-chat",
-    "component": "keboola.ro-chat",
-    "message": "Test message for ro-chat (no serverTransport)",
+    "id": 2234567893,
+    "event": "ext.keboola.kai-assistant",
+    "component": "keboola.kai-assistant",
+    "message": "Test message for kai-assistant (base)",
     "description": "",
     "type": "info",
     "runId": null,
@@ -14,15 +14,16 @@
     "context": {
         "remoteAddr": "127.0.0.1",
         "httpReferer": null,
-        "httpUserAgent": "ro-chat-test-suite",
+        "httpUserAgent": "kai-assistant-test-suite",
         "apiVersion": "v1"
     },
     "mcpServerContext": {
         "appEnv": "remote",
         "version": "1.0.0",
-        "userAgent": "ro-chat-local",
-        "sessionId": "3234567900",
-        "conversationId": "conv-ro-001"
+        "userAgent": "kai-assistant-local",
+        "sessionId": "2234567893",
+        "conversationId": "conv-kai-001",
+        "serverTransport": "sse"
     },
     "tool": {
         "name": "send-message",
@@ -43,10 +44,8 @@
         "name": "test-user@keboola.com"
     },
     "idBranch": 67890,
-    "uri": "https://connection.keboola.com/v2/storage/events/3234567900",
+    "uri": "https://connection.keboola.com/v2/storage/events/2234567893",
     "attachments": []
 }
-
-
 
 

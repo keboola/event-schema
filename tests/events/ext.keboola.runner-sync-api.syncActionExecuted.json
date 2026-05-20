@@ -1,0 +1,48 @@
+{
+    "id": 9900000001,
+    "event": "ext.keboola.runner-sync-api.syncActionExecuted",
+    "component": "keboola.runner-sync-api",
+    "message": "Sync action \"testConnection\" on \"keboola.ex-db-mysql\" finished: success",
+    "description": "",
+    "type": "info",
+    "runId": "run-abc123",
+    "created": "2026-05-20T10:00:00+0200",
+    "configurationId": "syncActionExecuted",
+    "objectId": "",
+    "objectName": "",
+    "objectType": "",
+    "context": {
+        "remoteAddr": "10.0.0.1",
+        "httpReferer": null,
+        "httpUserAgent": "SyncApiService",
+        "apiVersion": "v2"
+    },
+    "params": {
+        "componentId": "keboola.ex-db-mysql",
+        "action": "testConnection",
+        "mode": "run",
+        "tag": null,
+        "configData": {
+            "parameters": {
+                "host": "db.example.com",
+                "#password": "KBC::Encrypted==abc123..."
+            }
+        }
+    },
+    "results": {
+        "status": "success",
+        "exitCode": 0,
+        "output": "{\"status\": \"ok\"}",
+        "durationMs": 1523
+    },
+    "performance": {
+        "duration": 2
+    },
+    "token": {
+        "id": 12345,
+        "name": "my-token@keboola.com"
+    },
+    "idBranch": 67890,
+    "uri": "https://connection.keboola.com/v2/storage/events/9900000001",
+    "attachments": []
+}

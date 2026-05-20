@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "params": {
+            "type": "object",
+            "properties": {
+                "componentId": {
+                    "type": "string"
+                },
+                "action": {
+                    "type": "string"
+                },
+                "mode": {
+                    "type": "string",
+                    "enum": ["run", "debug"]
+                },
+                "tag": {
+                    "type": ["string", "null"]
+                },
+                "configData": {
+                    "type": "object"
+                }
+            },
+            "required": ["componentId", "action", "mode"]
+        },
+        "results": {
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "string",
+                    "enum": [
+                        "success",
+                        "error",
+                        "terminated",
+                        "out-of-memory",
+                        "start-timeout",
+                        "run-timeout",
+                        "image-not-found"
+                    ]
+                },
+                "exitCode": {
+                    "type": ["integer", "null"]
+                },
+                "output": {
+                    "type": ["string", "null"]
+                },
+                "durationMs": {
+                    "type": "integer"
+                }
+            },
+            "required": ["status", "durationMs"]
+        },
+        "performance": {
+            "type": "object",
+            "properties": {
+                "duration": {
+                    "type": "integer"
+                }
+            }
+        }
+    },
+    "required": ["message", "params", "results"]
+}

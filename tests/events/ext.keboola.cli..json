@@ -1,0 +1,38 @@
+{
+    "id": 6100000001,
+    "event": "ext.keboola.cli.",
+    "component": "keboola.cli",
+    "message": "config list command done.",
+    "description": "",
+    "type": "info",
+    "runId": null,
+    "created": "2026-09-11T09:30:00+0200",
+    "configurationId": null,
+    "objectId": "",
+    "objectName": "",
+    "objectType": "",
+    "context": {
+        "remoteAddr": "20.253.172.73",
+        "httpReferer": null,
+        "httpUserAgent": "keboola-cli/0.94.0 (Linux 6.6.87.2; x86_64; CPython 3.12.3)",
+        "apiVersion": "v2"
+    },
+    "params": {
+        "command": "config list",
+        "cliContext": {
+            "userAgent": "keboola-cli/0.94.0 (Linux 6.6.87.2; x86_64; CPython 3.12.3)"
+        }
+    },
+    "results": {
+        "projectId": 258
+    },
+    "duration": 1,
+    "performance": {},
+    "token": {
+        "id": 397681,
+        "name": "service-account@keboola.com"
+    },
+    "idBranch": 59944,
+    "uri": "https://connection.keboola.com/v2/storage/events/6100000001",
+    "attachments": []
+}

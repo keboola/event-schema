@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "cliContext": {
+          "type": "object",
+          "properties": {
+            "userAgent": {
+              "type": "string"
+            },
+            "conversationId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "userAgent"
+          ]
+        }
+      },
+      "required": [
+        "command",
+        "path"
+      ]
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "projectId": {
+          "type": "integer"
+        },
+        "error": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "projectId"
+      ]
+    }
+  },
+  "required": [
+    "message",
+    "params",
+    "results"
+  ]
+}
